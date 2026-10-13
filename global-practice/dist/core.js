@@ -4,11 +4,15 @@
     for (let i = result.length - 1; i > 0; i--) { const j = Math.floor(random() * (i+1)); [result[i],result[j]] = [result[j],result[i]]; }
     return result;
   };
-  const createRound = (bank) => {
+  const createRound = (bank, random = Math.random) => {
     if (bank.length < 50) throw new Error('ต้องมีคำถามอย่างน้อย 50 ข้อ');
     const pictures=shuffle(bank.filter(q=>q.image)), text=shuffle(bank.filter(q=>!q.image));
     const selectedPictures=pictures.slice(0,Math.min(5,pictures.length));
-    const selectedText=text.slice(0,50-selectedPictures.length);
+    const main=text.filter(q=>q.primary), supplement=text.filter(q=>!q.primary);
+    const mainCount = 25 + Math.floor(random() * 16);
+    const selectedText=main.slice(0,Math.min(mainCount,50-selectedPictures.length));
+    selectedText.push(...supplement.slice(0,50-selectedPictures.length-selectedText.length));
+    if(selectedText.length<50-selectedPictures.length)selectedText.push(...main.slice(selectedText.length,50-selectedPictures.length));
     const selected=[...selectedPictures,...selectedText];
     if(selected.length<50)selected.push(...pictures.slice(selectedPictures.length,selectedPictures.length+50-selected.length));
     return shuffle(selected).map(q => {

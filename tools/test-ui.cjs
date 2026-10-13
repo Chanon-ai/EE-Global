@@ -14,6 +14,11 @@ const click=(d,sel)=>{const b=d.window.document.querySelector(sel);assert.ok(b,s
 let d=open();click(d,'[data-action="start"]');assert.equal(d.window.document.querySelectorAll('.question-number').length,50);
 const round=JSON.parse(d.window.localStorage.getItem('global-practice-session-v1'));
 assert.equal(round.questions.filter(q=>q.image).length,5);
+const mainCount=round.questions.filter(q=>q.primary).length;
+assert.ok(mainCount>=25&&mainCount<=40);
+assert.equal(round.questions.filter(q=>!q.primary&&!q.image).length,45-mainCount);
+assert.equal(round.mode,'ee-range-v1');
+assert.ok(d.window.document.querySelector('.round-label').textContent.includes(mainCount+' MAIN'));
 const imageIndex=round.questions.findIndex(q=>q.image);
 click(d,`[data-index="${imageIndex}"]`);
 assert.ok(d.window.document.querySelector('.question-picture img'));
