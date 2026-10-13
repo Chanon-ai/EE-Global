@@ -1,0 +1,1 @@
+{"name":"ee-global-practice","private":true,"version":"1.0.0","scripts":{"build":"node build.cjs","test":"node test.cjs","start":"node server.cjs"}}
