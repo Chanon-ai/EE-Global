@@ -1,0 +1,10 @@
+{
+  "name": "ee-global",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm --prefix global-practice start",
+    "build": "npm --prefix global-practice run build",
+    "test": "npm --prefix global-practice test"
+  }
+}
