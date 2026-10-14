@@ -10,13 +10,22 @@ const imageQuestions=JSON.parse(fs.readFileSync(path.join(__dirname,'image-quest
 bank.push(...imageQuestions.map(q=>({id:q.id,category:'บุคคลและประวัติศาสตร์',question:'Who is the person shown in this picture?',options:[q.answer,...q.distractors],correct:0,explanation:q.explanation,source:sourceName,sourcePage:q.page,image:q.image})));
 const currentSource='(Update) Current Global 2024-2026🐶🌼.pdf';
 const slideSources={current:{source:currentSource},rare:{source:'เรื่องน่ารู้ แร่.png',sourceAsset:'slides/rare-earths.png'},plastic:{source:'สรุป เรื่อง ขยะพลาสติก.png',sourceAsset:'slides/plastic-waste.png'}};
-const extraRows=fs.readFileSync(path.join(__dirname,'slide-questions.txt'),'utf8').trim().split(/\r?\n/);
+Object.assign(slideSources,{
+  nobel2025:{source:'สรุป รางวัลโนเบล 2025.png',sourceAsset:'slides/nobel-2025.png'},
+  heritage2025:{source:'สรุป มรดกโลก ปี 2025.png',sourceAsset:'slides/heritage-2025.png'},
+  goldfactors:{source:'สรุป เรื่องน่ารู้ ทองคำ.png',sourceAsset:'slides/gold-factors.png'},
+  internet2025:{source:'เรื่องน่ารู้ เกี่ยวกับ อินเทอร์เน็ต.png',sourceAsset:'slides/internet-2025.png'},
+  submarines2025:{source:'อัพเดทข่าว น่ารู้ เรื่องเรือดำน้ำนิวเคลียร์.png',sourceAsset:'slides/nuclear-submarines-2025.png'}
+});
+for(const [filename,prefix] of [['slide-questions.txt','slide'],['infographic-questions.txt','graphic']]){
+const extraRows=fs.readFileSync(path.join(__dirname,filename),'utf8').trim().split(/\r?\n/);
 bank.push(...extraRows.map((row,i)=>{
   const fields=row.split('|');
   const [category,question,answer,d1,d2,d3,explanation,key,page,verificationUrl]=fields;
   if(fields.length<8||!slideSources[key]||![category,question,answer,d1,d2,d3,explanation].every(Boolean))throw new Error('Invalid slide question at line '+(i+1));
-  return {id:'slide'+String(i+1).padStart(3,'0'),category,question,options:[answer,d1,d2,d3],correct:0,explanation,...slideSources[key],...(page?{sourcePage:Number(page)}:{}),...(verificationUrl?{verificationUrl}:{})};
+  return {id:prefix+String(i+1).padStart(3,'0'),category,question,options:[answer,d1,d2,d3],correct:0,explanation,...slideSources[key],...(page?{sourcePage:Number(page)}:{}),...(verificationUrl?{verificationUrl}:{})};
 }));
+}
 const examSource='Global EE Exam🏠🐶🌼.pdf';
 const sourceMap=JSON.parse(fs.readFileSync(path.join(__dirname,'exam-source-map.json'),'utf8'));
 for(const q of bank){if(sourceMap[q.id]){q.source=examSource;q.sourcePage=sourceMap[q.id];q.primary=true;}}

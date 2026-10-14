@@ -2475,6 +2475,639 @@ window.QUESTION_BANK = [
     "sourceAsset": "slides/plastic-waste.png"
   },
   {
+    "id": "graphic001",
+    "category": "บุคคลและประวัติศาสตร์",
+    "question": "Who received the 2025 Nobel Peace Prize?",
+    "options": [
+      "Maria Corina Machado",
+      "Nihon Hidankyo",
+      "Han Kang",
+      "Malala Yousafzai"
+    ],
+    "correct": 0,
+    "explanation": "มารีอา โครินา มาชาโดได้รับโนเบลสันติภาพปี 2025 ส่วน Nihon Hidankyo ได้รับรางวัลปี 2024 ต้องสังเกตปีในโจทย์",
+    "source": "สรุป รางวัลโนเบล 2025.png",
+    "sourceAsset": "slides/nobel-2025.png",
+    "verificationUrl": "https://www.nobelprize.org/prizes/peace/2025/summary/"
+  },
+  {
+    "id": "graphic002",
+    "category": "บุคคลและประวัติศาสตร์",
+    "question": "Which country is 2025 Nobel Peace laureate Maria Corina Machado associated with?",
+    "options": [
+      "Venezuela",
+      "Brazil",
+      "Mexico",
+      "Argentina"
+    ],
+    "correct": 0,
+    "explanation": "มาชาโดเป็นบุคคลจากเวเนซุเอลาตามสไลด์ และได้รับรางวัลจากการส่งเสริมสิทธิประชาธิปไตยของประชาชนเวเนซุเอลา",
+    "source": "สรุป รางวัลโนเบล 2025.png",
+    "sourceAsset": "slides/nobel-2025.png",
+    "verificationUrl": "https://www.nobelprize.org/prizes/peace/2025/summary/"
+  },
+  {
+    "id": "graphic003",
+    "category": "บุคคลและประวัติศาสตร์",
+    "question": "What work was recognized by Maria Corina Machado's 2025 Nobel Peace Prize?",
+    "options": [
+      "Promoting democratic rights in Venezuela",
+      "Developing metal-organic frameworks",
+      "Discovering quantum tunnelling in circuits",
+      "Writing Hungarian literature"
+    ],
+    "correct": 0,
+    "explanation": "รางวัลยกย่องการส่งเสริมสิทธิประชาธิปไตยและการเปลี่ยนผ่านอย่างสันติในเวเนซุเอลา ไม่ใช่ผลงานวิทยาศาสตร์หรือวรรณกรรมในตัวเลือกอื่น",
+    "source": "สรุป รางวัลโนเบล 2025.png",
+    "sourceAsset": "slides/nobel-2025.png",
+    "verificationUrl": "https://www.nobelprize.org/prizes/peace/2025/summary/"
+  },
+  {
+    "id": "graphic004",
+    "category": "บุคคลและประวัติศาสตร์",
+    "question": "Who received the 2025 Nobel Prize in Literature?",
+    "options": [
+      "Laszlo Krasznahorkai",
+      "Han Kang",
+      "Maria Corina Machado",
+      "Richard Robson"
+    ],
+    "correct": 0,
+    "explanation": "ลาสโล คราสนาฮอร์ไคเป็นผู้ได้รับโนเบลวรรณกรรมปี 2025 ส่วนฮัน คังได้รับในปี 2024",
+    "source": "สรุป รางวัลโนเบล 2025.png",
+    "sourceAsset": "slides/nobel-2025.png",
+    "verificationUrl": "https://www.nobelprize.org/uploads/2025/10/Enpress25.pdf"
+  },
+  {
+    "id": "graphic005",
+    "category": "บุคคลและประวัติศาสตร์",
+    "question": "Which country is 2025 Nobel Literature laureate Laszlo Krasznahorkai from?",
+    "options": [
+      "Hungary",
+      "South Korea",
+      "Japan",
+      "France"
+    ],
+    "correct": 0,
+    "explanation": "คราสนาฮอร์ไคเป็นนักเขียนชาวฮังการี ตามชื่อและประเทศกำกับในสไลด์รางวัลปี 2025",
+    "source": "สรุป รางวัลโนเบล 2025.png",
+    "sourceAsset": "slides/nobel-2025.png",
+    "verificationUrl": "https://www.nobelprize.org/uploads/2025/10/Enpress25.pdf"
+  },
+  {
+    "id": "graphic006",
+    "category": "บุคคลและประวัติศาสตร์",
+    "question": "Which trio shared the 2025 Nobel Prize in Physiology or Medicine?",
+    "options": [
+      "Mary E. Brunkow, Fred Ramsdell, Shimon Sakaguchi",
+      "John Clarke, Michel H. Devoret, John M. Martinis",
+      "Susumu Kitagawa, Richard Robson, Omar M. Yaghi",
+      "Han Kang, Laszlo Krasznahorkai, Maria Corina Machado"
+    ],
+    "correct": 0,
+    "explanation": "โนเบลสรีรวิทยาหรือการแพทย์ปี 2025 มอบให้แมรี บรังโคว์ เฟรด แรมส์เดลล์ และชิมง ซากางูจิ ส่วนอีกสองกลุ่มเป็นผู้ได้รับรางวัลฟิสิกส์และเคมี",
+    "source": "สรุป รางวัลโนเบล 2025.png",
+    "sourceAsset": "slides/nobel-2025.png",
+    "verificationUrl": "https://www.nobelprize.org/uploads/2025/10/press-medicineprize2025.pdf"
+  },
+  {
+    "id": "graphic007",
+    "category": "บุคคลและประวัติศาสตร์",
+    "question": "Which research area was recognized by the 2025 Nobel Prize in Physiology or Medicine?",
+    "options": [
+      "Peripheral immune tolerance",
+      "Planetary motion",
+      "Macroscopic quantum tunnelling",
+      "Metal-organic frameworks"
+    ],
+    "correct": 0,
+    "explanation": "รางวัลเกี่ยวกับกลไกควบคุมภูมิคุ้มกันไม่ให้โจมตีร่างกายตนเอง หรือ peripheral immune tolerance เป็นหัวข้อภูมิคุ้มกันในสไลด์",
+    "source": "สรุป รางวัลโนเบล 2025.png",
+    "sourceAsset": "slides/nobel-2025.png",
+    "verificationUrl": "https://www.nobelprize.org/uploads/2025/10/press-medicineprize2025.pdf"
+  },
+  {
+    "id": "graphic008",
+    "category": "บุคคลและประวัติศาสตร์",
+    "question": "Which 2025 Nobel Medicine laureate is identified as Japanese in the slide?",
+    "options": [
+      "Shimon Sakaguchi",
+      "Fred Ramsdell",
+      "Mary E. Brunkow",
+      "John Clarke"
+    ],
+    "correct": 0,
+    "explanation": "สไลด์ระบุชิมง ซากางูจิเป็นชาวญี่ปุ่นในกลุ่มผู้ได้รับโนเบลการแพทย์ปี 2025 ส่วนบรังโคว์และแรมส์เดลล์อยู่ในกลุ่มสหรัฐฯ",
+    "source": "สรุป รางวัลโนเบล 2025.png",
+    "sourceAsset": "slides/nobel-2025.png",
+    "verificationUrl": "https://www.nobelprize.org/prizes/medicine/2025/summary/"
+  },
+  {
+    "id": "graphic009",
+    "category": "บุคคลและประวัติศาสตร์",
+    "question": "Which trio shared the 2025 Nobel Prize in Physics?",
+    "options": [
+      "John Clarke, Michel H. Devoret, John M. Martinis",
+      "Mary E. Brunkow, Fred Ramsdell, Shimon Sakaguchi",
+      "Susumu Kitagawa, Richard Robson, Omar M. Yaghi",
+      "Maria Corina Machado, Han Kang, Laszlo Krasznahorkai"
+    ],
+    "correct": 0,
+    "explanation": "โนเบลฟิสิกส์ปี 2025 มอบให้จอห์น คลาร์ก มิเชล เดอโวเรต์ และจอห์น มาร์ตินิส ตามกลุ่มรายชื่อในสไลด์",
+    "source": "สรุป รางวัลโนเบล 2025.png",
+    "sourceAsset": "slides/nobel-2025.png",
+    "verificationUrl": "https://www.nobelprize.org/prizes/physics/2025/summary/"
+  },
+  {
+    "id": "graphic010",
+    "category": "บุคคลและประวัติศาสตร์",
+    "question": "Which discovery was recognized by the 2025 Nobel Prize in Physics?",
+    "options": [
+      "Macroscopic quantum tunnelling and energy quantisation in an electric circuit",
+      "Peripheral immune tolerance",
+      "The development of metal-organic frameworks",
+      "The promotion of democratic rights"
+    ],
+    "correct": 0,
+    "explanation": "รางวัลฟิสิกส์ปี 2025 เกี่ยวกับการทะลุผ่านเชิงควอนตัมและการมีระดับพลังงานเป็นขั้นในวงจรไฟฟ้า ซึ่งแสดงพฤติกรรมควอนตัมในระบบระดับมหภาค",
+    "source": "สรุป รางวัลโนเบล 2025.png",
+    "sourceAsset": "slides/nobel-2025.png",
+    "verificationUrl": "https://www.nobelprize.org/prizes/physics/2025/summary/"
+  },
+  {
+    "id": "graphic011",
+    "category": "บุคคลและประวัติศาสตร์",
+    "question": "In which field did Michel H. Devoret share a Nobel Prize in 2025?",
+    "options": [
+      "Physics",
+      "Chemistry",
+      "Literature",
+      "Peace"
+    ],
+    "correct": 0,
+    "explanation": "มิเชล เดอโวเรต์อยู่ในกลุ่มผู้ได้รับโนเบลฟิสิกส์ปี 2025 ร่วมกับจอห์น คลาร์กและจอห์น มาร์ตินิส",
+    "source": "สรุป รางวัลโนเบล 2025.png",
+    "sourceAsset": "slides/nobel-2025.png",
+    "verificationUrl": "https://www.nobelprize.org/prizes/physics/2025/summary/"
+  },
+  {
+    "id": "graphic012",
+    "category": "บุคคลและประวัติศาสตร์",
+    "question": "Which trio shared the 2025 Nobel Prize in Chemistry?",
+    "options": [
+      "Susumu Kitagawa, Richard Robson, Omar M. Yaghi",
+      "John Clarke, Michel H. Devoret, John M. Martinis",
+      "Mary E. Brunkow, Fred Ramsdell, Shimon Sakaguchi",
+      "Han Kang, Laszlo Krasznahorkai, Maria Corina Machado"
+    ],
+    "correct": 0,
+    "explanation": "ซูซูมุ คิตางาวะ ริชาร์ด ร็อบสัน และโอมาร์ ยากีได้รับโนเบลเคมีปี 2025 จากการพัฒนาโครงข่ายโลหะ–อินทรีย์",
+    "source": "สรุป รางวัลโนเบล 2025.png",
+    "sourceAsset": "slides/nobel-2025.png",
+    "verificationUrl": "https://www.nobelprize.org/prizes/chemistry/2025/summary/"
+  },
+  {
+    "id": "graphic013",
+    "category": "บุคคลและประวัติศาสตร์",
+    "question": "What does MOF stand for in the research recognized by the 2025 Nobel Chemistry Prize?",
+    "options": [
+      "Metal-organic framework",
+      "Magnetic orbital field",
+      "Molecular oxygen filter",
+      "Medical organism formula"
+    ],
+    "correct": 0,
+    "explanation": "MOF ย่อจาก metal-organic framework หรือโครงข่ายโลหะ–อินทรีย์ เป็นวัสดุที่มีโครงสร้างรูพรุนตามหัวข้อในสไลด์",
+    "source": "สรุป รางวัลโนเบล 2025.png",
+    "sourceAsset": "slides/nobel-2025.png",
+    "verificationUrl": "https://www.nobelprize.org/prizes/chemistry/2025/summary/"
+  },
+  {
+    "id": "graphic014",
+    "category": "บุคคลและประวัติศาสตร์",
+    "question": "Who shared the 2025 Nobel Chemistry Prize with Omar M. Yaghi?",
+    "options": [
+      "Susumu Kitagawa and Richard Robson",
+      "John Clarke and Michel H. Devoret",
+      "Mary E. Brunkow and Fred Ramsdell",
+      "Han Kang and Laszlo Krasznahorkai"
+    ],
+    "correct": 0,
+    "explanation": "โอมาร์ ยากีได้รับรางวัลร่วมกับซูซูมุ คิตางาวะและริชาร์ด ร็อบสัน ต้องแยกกลุ่มผู้ได้รับรางวัลเคมีออกจากฟิสิกส์และการแพทย์",
+    "source": "สรุป รางวัลโนเบล 2025.png",
+    "sourceAsset": "slides/nobel-2025.png",
+    "verificationUrl": "https://www.nobelprize.org/prizes/chemistry/2025/summary/"
+  },
+  {
+    "id": "graphic015",
+    "category": "บุคคลและประวัติศาสตร์",
+    "question": "In which field did Susumu Kitagawa receive a Nobel Prize in 2025?",
+    "options": [
+      "Chemistry",
+      "Physics",
+      "Literature",
+      "Peace"
+    ],
+    "correct": 0,
+    "explanation": "ซูซูมุ คิตางาวะอยู่ในกลุ่มผู้ได้รับโนเบลเคมีปี 2025 จากงานพัฒนาโครงข่ายโลหะ–อินทรีย์",
+    "source": "สรุป รางวัลโนเบล 2025.png",
+    "sourceAsset": "slides/nobel-2025.png",
+    "verificationUrl": "https://www.nobelprize.org/prizes/chemistry/2025/summary/"
+  },
+  {
+    "id": "graphic016",
+    "category": "ภูมิศาสตร์",
+    "question": "In which country are the Palaces of King Ludwig II of Bavaria, inscribed in 2025?",
+    "options": [
+      "Germany",
+      "Austria",
+      "France",
+      "Switzerland"
+    ],
+    "correct": 0,
+    "explanation": "กลุ่มพระราชวังของพระเจ้าลุดวิกที่ 2 อยู่ในบาวาเรีย ประเทศเยอรมนี และขึ้นทะเบียนมรดกโลกในปี 2025",
+    "source": "สรุป มรดกโลก ปี 2025.png",
+    "sourceAsset": "slides/heritage-2025.png",
+    "verificationUrl": "https://whc.unesco.org/en/list/1726/"
+  },
+  {
+    "id": "graphic017",
+    "category": "ภูมิศาสตร์",
+    "question": "Neuschwanstein belongs to the 2025 World Heritage property associated with which king?",
+    "options": [
+      "King Ludwig II",
+      "King Louis XIV",
+      "King Charles III",
+      "King Rama V"
+    ],
+    "correct": 0,
+    "explanation": "นอยชวานสไตน์เป็นหนึ่งในสี่องค์ประกอบของกลุ่มพระราชวังพระเจ้าลุดวิกที่ 2 แห่งบาวาเรีย",
+    "source": "สรุป มรดกโลก ปี 2025.png",
+    "sourceAsset": "slides/heritage-2025.png",
+    "verificationUrl": "https://whc.unesco.org/en/list/1726/"
+  },
+  {
+    "id": "graphic018",
+    "category": "ภูมิศาสตร์",
+    "question": "In which country are the Xixia Imperial Tombs, inscribed in 2025?",
+    "options": [
+      "China",
+      "Japan",
+      "South Korea",
+      "Vietnam"
+    ],
+    "correct": 0,
+    "explanation": "สุสานหลวงซีเซี่ยอยู่ในจีน เป็นหนึ่งในแหล่งมรดกโลกใหม่ที่สไลด์ปี 2025 ยกตัวอย่าง",
+    "source": "สรุป มรดกโลก ปี 2025.png",
+    "sourceAsset": "slides/heritage-2025.png",
+    "verificationUrl": "https://whc.unesco.org/en/list/1736/"
+  },
+  {
+    "id": "graphic019",
+    "category": "ภูมิศาสตร์",
+    "question": "In which country are the Maratha Military Landscapes, inscribed in 2025?",
+    "options": [
+      "India",
+      "Nepal",
+      "Pakistan",
+      "Sri Lanka"
+    ],
+    "correct": 0,
+    "explanation": "ภูมิทัศน์ทางทหารของมราฐะอยู่ในอินเดีย ตามสไลด์และข้อมูลการขึ้นทะเบียนของยูเนสโก",
+    "source": "สรุป มรดกโลก ปี 2025.png",
+    "sourceAsset": "slides/heritage-2025.png",
+    "verificationUrl": "https://whc.unesco.org/en/list/1739/"
+  },
+  {
+    "id": "graphic020",
+    "category": "ภูมิศาสตร์",
+    "question": "In which country are the Cambodian Memorial Sites inscribed in 2025?",
+    "options": [
+      "Cambodia",
+      "Laos",
+      "Vietnam",
+      "Thailand"
+    ],
+    "correct": 0,
+    "explanation": "แหล่งอนุสรณ์ที่เกี่ยวข้องกับการปราบปรามในยุคเขมรแดงอยู่ในกัมพูชา และขึ้นทะเบียนในปี 2025",
+    "source": "สรุป มรดกโลก ปี 2025.png",
+    "sourceAsset": "slides/heritage-2025.png",
+    "verificationUrl": "https://whc.unesco.org/en/list/1748/"
+  },
+  {
+    "id": "graphic021",
+    "category": "ภูมิศาสตร์",
+    "question": "How many forts make up the Maratha Military Landscapes property described in the slide?",
+    "options": [
+      "12",
+      "4",
+      "8",
+      "26"
+    ],
+    "correct": 0,
+    "explanation": "แหล่งมรดกโลกนี้ประกอบด้วยป้อมปราการ 12 แห่งในอินเดีย โดยสไลด์กล่าวถึงรัฐมหาราษฏระและทมิฬนาฑู",
+    "source": "สรุป มรดกโลก ปี 2025.png",
+    "sourceAsset": "slides/heritage-2025.png",
+    "verificationUrl": "https://whc.unesco.org/en/list/1739/"
+  },
+  {
+    "id": "graphic022",
+    "category": "ภูมิศาสตร์",
+    "question": "Which museum is a component of the Cambodian Memorial Sites property?",
+    "options": [
+      "Tuol Sleng Genocide Museum",
+      "The Louvre Museum",
+      "The British Museum",
+      "The Acropolis Museum"
+    ],
+    "correct": 0,
+    "explanation": "พิพิธภัณฑ์ฆ่าล้างเผ่าพันธุ์ตวลสเลงเป็นองค์ประกอบหนึ่งของแหล่งอนุสรณ์กัมพูชาในรายการมรดกโลกปี 2025",
+    "source": "สรุป มรดกโลก ปี 2025.png",
+    "sourceAsset": "slides/heritage-2025.png",
+    "verificationUrl": "https://whc.unesco.org/en/list/1748/"
+  },
+  {
+    "id": "graphic023",
+    "category": "ภูมิศาสตร์",
+    "question": "Which site is a component of the Cambodian Memorial Sites property alongside Tuol Sleng?",
+    "options": [
+      "Choeung Ek",
+      "Neuschwanstein",
+      "Xixia Imperial Tombs",
+      "Herrenchiemsee"
+    ],
+    "correct": 0,
+    "explanation": "เจืองเอกเป็นองค์ประกอบอีกแห่งหนึ่งของแหล่งอนุสรณ์กัมพูชา ส่วนตัวเลือกอื่นเป็นสถานที่ในเยอรมนีหรือจีน",
+    "source": "สรุป มรดกโลก ปี 2025.png",
+    "sourceAsset": "slides/heritage-2025.png",
+    "verificationUrl": "https://whc.unesco.org/en/list/1748/"
+  },
+  {
+    "id": "graphic024",
+    "category": "ภูมิศาสตร์",
+    "question": "How many component sites make up the Cambodian Memorial Sites property?",
+    "options": [
+      "3",
+      "4",
+      "12",
+      "26"
+    ],
+    "correct": 0,
+    "explanation": "แหล่งอนุสรณ์กัมพูชามีสามองค์ประกอบ ได้แก่ อดีตคุก M-13 พิพิธภัณฑ์ตวลสเลง และเจืองเอก",
+    "source": "สรุป มรดกโลก ปี 2025.png",
+    "sourceAsset": "slides/heritage-2025.png",
+    "verificationUrl": "https://whc.unesco.org/en/list/1748/"
+  },
+  {
+    "id": "graphic025",
+    "category": "ภูมิศาสตร์",
+    "question": "How many new World Heritage properties were inscribed at UNESCO's 2025 session?",
+    "options": [
+      "26",
+      "12",
+      "21",
+      "41"
+    ],
+    "correct": 0,
+    "explanation": "สไลด์ระบุแหล่งมรดกโลกใหม่ 26 แห่งในปี 2025 แบ่งเป็นวัฒนธรรม 21 ธรรมชาติ 4 และแบบผสม 1 ข้อนี้ไม่ถามยอดรวมในปัจจุบัน",
+    "source": "สรุป มรดกโลก ปี 2025.png",
+    "sourceAsset": "slides/heritage-2025.png",
+    "verificationUrl": "https://whc.unesco.org/en/newproperties/meeting=47COM&mode=table"
+  },
+  {
+    "id": "graphic026",
+    "category": "เศรษฐกิจ",
+    "question": "Which role of gold is emphasized during war and political uncertainty in the slide?",
+    "options": [
+      "A safe-haven asset",
+      "A guaranteed source of profit",
+      "A replacement for all currencies",
+      "A fixed-price commodity"
+    ],
+    "correct": 0,
+    "explanation": "ภาพสรุปอธิบายว่าความไม่แน่นอนอาจเพิ่มความต้องการทองคำในฐานะสินทรัพย์หลบภัย แต่ไม่ได้หมายความว่าราคาจะเพิ่มขึ้นทุกครั้ง",
+    "source": "สรุป เรื่องน่ารู้ ทองคำ.png",
+    "sourceAsset": "slides/gold-factors.png",
+    "verificationUrl": "https://www.gold.org/goldhub/research/what-drives-gold"
+  },
+  {
+    "id": "graphic027",
+    "category": "เศรษฐกิจ",
+    "question": "Which action by central banks can increase demand for gold according to the slide?",
+    "options": [
+      "Adding gold to reserves",
+      "Ending all gold purchases permanently",
+      "Replacing gold with paper receipts only",
+      "Banning every form of jewellery"
+    ],
+    "correct": 0,
+    "explanation": "สไลด์กล่าวถึงการสะสมทองคำในทุนสำรองของธนาคารกลาง ซึ่งเป็นหนึ่งในปัจจัยด้านอุปสงค์ของทองคำ",
+    "source": "สรุป เรื่องน่ารู้ ทองคำ.png",
+    "sourceAsset": "slides/gold-factors.png",
+    "verificationUrl": "https://www.gold.org/goldhub/research/what-drives-gold"
+  },
+  {
+    "id": "graphic028",
+    "category": "เศรษฐกิจ",
+    "question": "Which US monetary-policy change does the slide associate with stronger demand for gold?",
+    "options": [
+      "Lower interest rates",
+      "A permanent ban on gold trading",
+      "A ban on jewellery production",
+      "Eliminating every central bank"
+    ],
+    "correct": 0,
+    "explanation": "สไลด์ยกการลดดอกเบี้ยสหรัฐฯ เป็นปัจจัยหนึ่งที่อาจสนับสนุนความต้องการทองคำ ความสัมพันธ์นี้ขึ้นกับปัจจัยอื่นด้วย ไม่ใช่ผลที่รับประกัน",
+    "source": "สรุป เรื่องน่ารู้ ทองคำ.png",
+    "sourceAsset": "slides/gold-factors.png",
+    "verificationUrl": "https://www.gold.org/goldhub/research/gold-mid-year-outlook-2025"
+  },
+  {
+    "id": "graphic029",
+    "category": "เศรษฐกิจ",
+    "question": "Which currency movement is described as potentially supporting gold demand?",
+    "options": [
+      "A weaker US dollar",
+      "A permanently fixed exchange rate everywhere",
+      "The abolition of all foreign exchange",
+      "A stronger dollar in every circumstance"
+    ],
+    "correct": 0,
+    "explanation": "ดอลลาร์สหรัฐที่อ่อนค่าลงเป็นปัจจัยที่สไลด์เชื่อมกับความต้องการทองคำ แต่ทิศทางราคายังขึ้นกับอุปสงค์ อุปทาน และปัจจัยอื่น",
+    "source": "สรุป เรื่องน่ารู้ ทองคำ.png",
+    "sourceAsset": "slides/gold-factors.png",
+    "verificationUrl": "https://www.gold.org/goldhub/research/gold-mid-year-outlook-2025"
+  },
+  {
+    "id": "graphic030",
+    "category": "เศรษฐกิจ",
+    "question": "Why does the slide connect higher oil prices with higher gold production costs?",
+    "options": [
+      "Energy is an input in gold production",
+      "Gold is made entirely from crude oil",
+      "Oil and gold are the same substance",
+      "Gold mining never uses energy"
+    ],
+    "correct": 0,
+    "explanation": "การผลิตทองคำต้องใช้พลังงาน สไลด์จึงยกราคาน้ำมันเป็นปัจจัยด้านต้นทุน ไม่ได้หมายความว่าทองคำผลิตจากน้ำมัน",
+    "source": "สรุป เรื่องน่ารู้ ทองคำ.png",
+    "sourceAsset": "slides/gold-factors.png"
+  },
+  {
+    "id": "graphic031",
+    "category": "เศรษฐกิจ",
+    "question": "Which seasonal events are linked to gold buying in the slide?",
+    "options": [
+      "Indian weddings and Chinese New Year",
+      "Only Antarctic winters",
+      "Only solar eclipses",
+      "Only international football finals"
+    ],
+    "correct": 0,
+    "explanation": "ภาพสรุปยกเทศกาลแต่งงานในอินเดียและตรุษจีนเป็นตัวอย่างช่วงที่ความต้องการซื้อทองคำอาจเพิ่มขึ้น",
+    "source": "สรุป เรื่องน่ารู้ ทองคำ.png",
+    "sourceAsset": "slides/gold-factors.png"
+  },
+  {
+    "id": "graphic032",
+    "category": "องค์กรโลก",
+    "question": "Which country has the highest internet-freedom score in the 2025 slide?",
+    "options": [
+      "Iceland",
+      "Thailand",
+      "China",
+      "Myanmar"
+    ],
+    "correct": 0,
+    "explanation": "ภาพสรุปซึ่งอ้าง Freedom House ระบุไอซ์แลนด์มีคะแนน 94 จาก 100 และอยู่สูงสุดในข้อมูลปี 2025 ที่ยกมา",
+    "source": "เรื่องน่ารู้ เกี่ยวกับ อินเทอร์เน็ต.png",
+    "sourceAsset": "slides/internet-2025.png",
+    "verificationUrl": "https://freedomhouse.org/sites/default/files/2025-12/FOTN%202025_final_digital_120525.pdf"
+  },
+  {
+    "id": "graphic033",
+    "category": "องค์กรโลก",
+    "question": "What internet-freedom score does the 2025 slide give Thailand?",
+    "options": [
+      "39 out of 100",
+      "94 out of 100",
+      "61 out of 100",
+      "9 out of 100"
+    ],
+    "correct": 0,
+    "explanation": "สไลด์ระบุไทยได้ 39 จาก 100 ในข้อมูลเสรีภาพอินเทอร์เน็ตปี 2025 ข้อนี้ถามคะแนนตามสไลด์ ไม่ใช่คะแนนปีล่าสุด",
+    "source": "เรื่องน่ารู้ เกี่ยวกับ อินเทอร์เน็ต.png",
+    "sourceAsset": "slides/internet-2025.png",
+    "verificationUrl": "https://freedomhouse.org/country/thailand/freedom-net/2025"
+  },
+  {
+    "id": "graphic034",
+    "category": "องค์กรโลก",
+    "question": "How is the Philippines classified in the 2025 internet-freedom slide?",
+    "options": [
+      "Partly Free",
+      "Free",
+      "Not Free",
+      "Not assessed"
+    ],
+    "correct": 0,
+    "explanation": "ฟิลิปปินส์มีคะแนน 61 และจัดเป็นเสรีบางส่วน หรือ Partly Free ตามข้อมูลปี 2025 ในภาพสรุป",
+    "source": "เรื่องน่ารู้ เกี่ยวกับ อินเทอร์เน็ต.png",
+    "sourceAsset": "slides/internet-2025.png",
+    "verificationUrl": "https://freedomhouse.org/country/philippines/freedom-net/2025"
+  },
+  {
+    "id": "graphic035",
+    "category": "องค์กรโลก",
+    "question": "Which pair shares a score of 9 in the 2025 internet-freedom slide?",
+    "options": [
+      "China and Myanmar",
+      "Thailand and Cambodia",
+      "Iceland and the United States",
+      "Malaysia and Singapore"
+    ],
+    "correct": 0,
+    "explanation": "ภาพสรุประบุจีนและเมียนมาได้คะแนนเท่ากันที่ 9 โดยจัดอยู่ในกลุ่มไม่เสรี ข้อนี้อ้างข้อมูลปี 2025",
+    "source": "เรื่องน่ารู้ เกี่ยวกับ อินเทอร์เน็ต.png",
+    "sourceAsset": "slides/internet-2025.png",
+    "verificationUrl": "https://freedomhouse.org/sites/default/files/2025-12/FOTN%202025_final_digital_120525.pdf"
+  },
+  {
+    "id": "graphic036",
+    "category": "องค์กรโลก",
+    "question": "According to the nuclear-submarine slide dated 8 November 2025, which country has the largest listed fleet?",
+    "options": [
+      "United States",
+      "Russia",
+      "China",
+      "India"
+    ],
+    "correct": 0,
+    "explanation": "สไลด์ระบุสหรัฐฯ มีเรือดำน้ำนิวเคลียร์ 66 ลำ มากที่สุดในหกประเทศที่แสดง ตัวเลขนี้เป็นข้อมูลตามสไลด์ ไม่ใช่ยอดปัจจุบัน",
+    "source": "อัพเดทข่าว น่ารู้ เรื่องเรือดำน้ำนิวเคลียร์.png",
+    "sourceAsset": "slides/nuclear-submarines-2025.png"
+  },
+  {
+    "id": "graphic037",
+    "category": "องค์กรโลก",
+    "question": "How many nuclear submarines are listed for Russia in the 2025 slide?",
+    "options": [
+      "31",
+      "66",
+      "12",
+      "2"
+    ],
+    "correct": 0,
+    "explanation": "ภาพสรุประบุรัสเซียมี 31 ลำ เป็นตัวเลขในสไลด์ลงวันที่ 8 พฤศจิกายน 2025",
+    "source": "อัพเดทข่าว น่ารู้ เรื่องเรือดำน้ำนิวเคลียร์.png",
+    "sourceAsset": "slides/nuclear-submarines-2025.png"
+  },
+  {
+    "id": "graphic038",
+    "category": "องค์กรโลก",
+    "question": "How many nuclear submarines are listed for China in the 2025 slide?",
+    "options": [
+      "12",
+      "31",
+      "10",
+      "9"
+    ],
+    "correct": 0,
+    "explanation": "ภาพสรุประบุจีนมีเรือดำน้ำนิวเคลียร์ 12 ลำ ข้อนี้ถามข้อมูลที่พิมพ์ในสไลด์ปี 2025",
+    "source": "อัพเดทข่าว น่ารู้ เรื่องเรือดำน้ำนิวเคลียร์.png",
+    "sourceAsset": "slides/nuclear-submarines-2025.png"
+  },
+  {
+    "id": "graphic039",
+    "category": "องค์กรโลก",
+    "question": "Which pair of European countries appears in the 2025 nuclear-submarine slide?",
+    "options": [
+      "United Kingdom and France",
+      "Germany and Italy",
+      "Spain and Portugal",
+      "Sweden and Norway"
+    ],
+    "correct": 0,
+    "explanation": "ประเทศในยุโรปที่ภาพสรุปแสดงคือสหราชอาณาจักรและฝรั่งเศส โดยระบุ 10 และ 9 ลำตามลำดับ",
+    "source": "อัพเดทข่าว น่ารู้ เรื่องเรือดำน้ำนิวเคลียร์.png",
+    "sourceAsset": "slides/nuclear-submarines-2025.png"
+  },
+  {
+    "id": "graphic040",
+    "category": "องค์กรโลก",
+    "question": "Which country is shown with two nuclear submarines in the 2025 slide?",
+    "options": [
+      "India",
+      "China",
+      "France",
+      "Russia"
+    ],
+    "correct": 0,
+    "explanation": "อินเดียเป็นประเทศที่สไลด์ระบุเรือดำน้ำนิวเคลียร์ 2 ลำ ข้อนี้ใช้ข้อมูลในภาพสรุป ไม่ใช่การอ้างจำนวนล่าสุด",
+    "source": "อัพเดทข่าว น่ารู้ เรื่องเรือดำน้ำนิวเคลียร์.png",
+    "sourceAsset": "slides/nuclear-submarines-2025.png"
+  },
+  {
     "id": "exam001",
     "category": "ภูมิศาสตร์",
     "question": "What is the capital city of Myanmar?",

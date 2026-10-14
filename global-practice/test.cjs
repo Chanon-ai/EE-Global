@@ -7,8 +7,9 @@ for(const q of bank.filter(q=>q.image)){assert.ok(fs.existsSync('./dist/'+q.imag
 for(const q of bank){assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4);assert.match(q.explanation,/[ก-๙]/);assert.ok(q.options.every(o=>!/[ก-๙]/.test(o)));assert.ok(fs.existsSync(q.sourceAsset?'./dist/'+q.sourceAsset:'./dist/sources/'+q.source+'.html'));if(q.verificationUrl)assert.match(q.verificationUrl,/^https:\/\//);}
 assert.equal(bank.filter(q=>q.id.startsWith('slide')).length,60);
 assert.equal(bank.filter(q=>q.id.startsWith('exam')).length,81);
-assert.equal(bank.length,243);
-assert.ok(bank.filter(q=>q.primary).length>bank.length/2);
+assert.equal(bank.filter(q=>q.id.startsWith('graphic')).length,40);
+assert.equal(bank.length,283);
+assert.ok(bank.filter(q=>q.primary).length>=40);
 for(const q of bank.filter(q=>q.primary)){assert.equal(q.source,'Global EE Exam🏠🐶🌼.pdf');assert.ok(q.sourcePage>=1&&q.sourcePage<=44);}
 const orders=new Set();
 for(let i=0;i<100;i++){
